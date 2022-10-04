@@ -63,7 +63,7 @@ overflow: auto ; padding: 15px;
     
 }
 .pozadi1 {background-image: url(obrazky/pozadi.png);background-repeat: no-repeat;background-attachment:fixed;
-   background-size: cover ; background-position: center center;}
+   background-size: cover ; width: 100%; background-position: center center;  }
 
 
 
@@ -71,8 +71,8 @@ overflow: auto ; padding: 15px;
 .motto {margin-top:100px; margin-bottom: 200px}
 .omne {
     
-  height: auto;background-color:#e9e0d8;background-repeat: no-repeat;background-position:center;
-color:#243E36;
+  height: auto;background-color:#243E36;background-repeat: no-repeat;background-position:center;
+color:#e9e0d8 ;
  margin:auto;
   position: relative;margin-top: 200px;
  
@@ -124,7 +124,7 @@ color:#243E36;
   display: inline-block;
   padding: 8px;
   color: #e9e0d8;
-  background-color: #243E36;
+  background-color: #7e501b;
   text-align: center;
   cursor: pointer;
   width: 50%;border-top-left-radius: 10px;border-end-end-radius: 10px
@@ -144,9 +144,12 @@ color:#243E36;
   /* Sekce Služby*/
 .sluzby {margin-top: 200px}
 
-.popis{height: auto;background-color:#243E36;color:#e9e0d8;margin:auto;
+.popis{height: auto; background-image:url(obrazky/pozadipopis.png);background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; background-attachment: fixed; color:#243E36 ;margin:auto;font-weight: bold;
   position: relative;
-  max-width: 800px;
+  max-width: 1000px;
+  height: auto;
 
 
  display: grid;
@@ -176,14 +179,15 @@ color:#243E36;
    max-width: 300px;
    
  }
-   
-  
+   /* Masaže*/
+
 }
    
 .masaze {
   
   text-align: center;
-  font-size: 40px}
+  font-size: 40px;background-color:#243E36   ;padding: 100px; opacity: 90%;box-shadow: 0px 5px 10px 0px #aaa;
+}
 .klasicka,
 .lynfaticka,
 .akupresura,
@@ -199,14 +203,14 @@ color:#243E36;
 
 .kklasika {
   float:left;
-
+  
   width: 19%;
   margin-right: 3%;
   margin-left:3%;
  
   max-width: 100%;
-
-  box-shadow: 0px 0px 5px 0px #aaa;
+ 
+  
   background-image:url(obrazky/pklasicka.png);
   background-position: center;
   background-repeat: no-repeat;
@@ -218,12 +222,13 @@ color:#243E36;
   float:left;
 
   width: 19%;
+  
   margin-right: 3%;
   margin-left:3%;
  
   max-width: 100%;
 
-  box-shadow: 0px 0px 5px 0px #aaa;
+ 
   border-top-left-radius: 15px;
   border-end-end-radius: 15px;
   background-image:url(obrazky/plymfaticka.png);
@@ -237,14 +242,14 @@ color:#243E36;
 }
 .kakupresura {
   float:left;
-
+  
   width: 19%;
   margin-right: 3%;
   margin-left:3%;
  
   max-width: 100%;
 
-  box-shadow: 0px 0px 5px 0px #aaa;
+ 
   border-top-left-radius: 15px;
   border-end-end-radius: 15px;
   background-image:url(obrazky/pakupresura.png);
@@ -263,7 +268,7 @@ color:#243E36;
  
   max-width: 100%;
 
-  box-shadow: 0px 0px 5px 0px #aaa;
+  
   border-top-left-radius: 15px;
   border-end-end-radius: 15px;
   background-image:url(obrazky/praiki.png);
@@ -289,7 +294,7 @@ color:#243E36;
 .container1 {
   
   text-align:center; background-color: rgba(0, 0, 0, 0.3); border-top-right-radius: 15px;
-  border-end-start-radius: 15px;margin:0 20px 0 20px;padding: 0; color:#e9e0d8
+  border-end-start-radius: 15px;margin:0 20px 0 20px;padding: 0; color:#e9e0d8; height: 70px;
 }
 .text {
   background-color:rgba(0, 0, 0, 0.3) ;color:#e9e0d8 ;  border-top-right-radius: 15px;
@@ -309,8 +314,8 @@ color:#243E36;
 
 @media screen and (max-width: 1000px) {
   .kklasika,.kakupresura,.klymfaticka,.kreiki {
-    width: 50%;
-    display: block;margin: 20px 25% 0 25%;
+    width: 70%;
+    display: block;margin: 20px 15% 0 15%;
   }
 }
 *, *:before, *:after {
