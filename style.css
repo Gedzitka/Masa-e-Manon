@@ -83,6 +83,9 @@ color:#e9e0d8 ;
 *, *:before, *:after {
   box-sizing: inherit;
 }
+.verca {width: 300px; max-width:100%;  height:auto; border-radius: 50%;border:6px;
+  border-color:#7e501b ;
+  border-style:solid; margin-top: 80px}
 
 .column {
   float: left;
