@@ -167,29 +167,37 @@ color:#e9e0d8 ;
  }
   }
 .cenik 
-{height: auto;background-color:#e9e0d8;
- margin:auto;
+{
+  height: auto;
+  background-color:#e9e0d8;
+  margin:auto;
   position: relative;
   max-width: 800px;
-
-
- display: grid;
-    box-shadow: 0px 5px 10px 0px #aaa;
+  display: grid;
+  box-shadow: 0px 5px 10px 0px #aaa;
   
-  text-align:center;border-top-left-radius: 15px;border-end-end-radius: 15px}
-  @media only screen and (max-width: 700px) {
+  text-align:center;
+  border-top-left-radius: 15px;
+  border-end-end-radius: 15px}
+  @media only screen and (max-width: 700px) 
+  {
  .cenik {
    max-width: 300px;
    
  }
+}
    /* Masaže*/
 
-}
+
    
 .masaze {
   
   text-align: center;
-  font-size: 40px;background-color:#243E36   ;padding: 100px; opacity: 90%;box-shadow: 0px 5px 10px 0px #aaa;
+  font-size: 40px;
+  background-color:#243E36;
+  padding: 30px; 
+  opacity: 90%;
+  box-shadow: 0px 5px 10px 0px #aaa;
 }
 .klasicka,
 .lynfaticka,
@@ -296,12 +304,21 @@ color:#e9e0d8 ;
 
 .container1 {
   
-  text-align:center; background-color: rgba(0, 0, 0, 0.3); border-top-right-radius: 15px;
-  border-end-start-radius: 15px;margin:0 20px 0 20px;padding: 0; color:#e9e0d8; height: 70px;
+  text-align:center; 
+  background-color: rgba(0, 0, 0, 0.3); 
+  border-top-right-radius: 15px;
+  border-end-start-radius: 15px;
+  margin:0 20px 0 20px;
+  padding: 0; 
+  color:#e9e0d8; 
+  height: 70px;
 }
 .text {
-  background-color:rgba(0, 0, 0, 0.3) ;color:#e9e0d8 ;  border-top-right-radius: 15px;
-  border-end-start-radius: 15px; padding: 5px;
+  background-color:rgba(0, 0, 0, 0.3) ;
+  color:#e9e0d8 ;  
+  border-top-right-radius: 15px;
+  border-end-start-radius: 15px; 
+  padding: 5px;
 }
 
 .container1::after, .row::after {
@@ -318,7 +335,9 @@ color:#e9e0d8 ;
 @media screen and (max-width: 1000px) {
   .kklasika,.kakupresura,.klymfaticka,.kreiki {
     width: 100%;
-    display: block;margin-left: 0px;margin-right:0px;margin-top: 15px;
+    display: block;
+    margin:15px 0 0 0;
+    
   }
 }
 *, *:before, *:after {
@@ -327,10 +346,14 @@ color:#e9e0d8 ;
 
 
 /* Sekce Ceník*/
-.cenik {margin-top:200px;box-shadow: 0px 5px 10px 0px #aaa; }
+.cenik {
+  margin-top:200px;
+  box-shadow: 0px 5px 10px 0px #aaa; 
+}
 @media only screen and (max-width: 600px) {
   table, th, td, tr, thead, tbody {
-    display: block; font-size: 18px;
+    display: block; 
+    font-size: 18px;
   }
 }
 table {
@@ -359,7 +382,24 @@ td {
   
 
 /* Sekce Fotogalerie */
-.fotogalerie {margin-top: 200px;}
+.fotogalerie {
+  color:#e9e0d8;
+  height: auto;
+  background-color:#243E36;
+  max-width: 1300px;
+  box-shadow: 0px 5px 10px 0px #aaa;
+  border-top-left-radius: 15px;
+  border-end-end-radius: 15px;
+  margin: 200px auto
+}
+  @media only screen and (max-width: 700px) 
+  {
+ .fotogalerie {
+   max-width: 300px;
+   padding-top: 0;
+   
+ }
+}
 
 @keyframes slidy {
 0% { left: 0%; }
@@ -401,7 +441,9 @@ figure.slider img { width:1400px; max-width: 100%; height: auto; }
 
 .kontakty {
   font-size: 18px;
-  background-color:white;text-align: center;margin-top: 200px;}
+  background-color:white;
+  text-align: center;
+  margin-top: 200px;}
   
 .kontakty a 
 { 
