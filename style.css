@@ -317,8 +317,8 @@ color:#e9e0d8 ;
 
 @media screen and (max-width: 1000px) {
   .kklasika,.kakupresura,.klymfaticka,.kreiki {
-    width: 90%;
-    display: block;margin: 20px 15% 0 15%;
+    width: 100%;
+    display: block;margin-left: 0px;margin-right:0px;margin-top: 15px;
   }
 }
 *, *:before, *:after {
